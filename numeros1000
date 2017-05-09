@@ -1,0 +1,18 @@
+package ex11;
+import java.util.Scanner;
+
+public class ex1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int numeros;
+		
+			for(numeros = 1000; numeros <=2000; numeros++){
+				if(numeros % 11 == 5){
+					System.out.println(numeros);
+				}
+			}
+	}
+
+}
+// números  de 1000 a 2000 que divididos por 11 produzam 5
